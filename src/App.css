@@ -1,0 +1,49 @@
+.overall {
+  height: auto;
+}
+.home-img {
+  display: flex;
+  height: 1100px;
+}
+
+.home-img-container {
+  object-fit: cover;
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  z-index: 22;
+}
+
+.crossing-lines {
+  position: absolute;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 22;
+  top: 60%;
+  overflow: hidden;
+}
+
+.ribbon {
+  background-color: rgb(190, 187, 8);
+  height: 100px;
+  width: 1600px;
+  position: absolute;
+  left: -6%;
+  padding: 0 100px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  font-size: 66px;
+  color: white;
+}
+
+.ribbon1 {
+  transform: rotate(9deg);
+  z-index: 22;
+}
+.ribbon2 {
+  transform: rotate(-9deg);
+  z-index: 21;
+}

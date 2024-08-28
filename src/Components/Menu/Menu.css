@@ -1,0 +1,10 @@
+.Menu {
+  height: 100vh;
+  z-index: 10;
+  background-color: white;
+}
+
+.menu-header {
+  font-size: 66px;
+  color: rgb(36, 80, 56);
+}
