@@ -11,3 +11,13 @@
   text-align: center;
   margin: 100px 0 0;
 }
+.home-txt {
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  flex-wrap: wrap;
+  width: 200px;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+}

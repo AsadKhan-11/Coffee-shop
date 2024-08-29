@@ -4,6 +4,7 @@ import Nav from "./Components/Nav/Nav";
 import Home from "./Components/Home/Home";
 import Menu from "./Components/Menu/Menu";
 import coffee from "../public/Coffee1.png";
+import badge from "../public/badge.png";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +14,14 @@ function App() {
       <Nav />
       <Home />
       <div className="home-img-container">
-        <img src={coffee} className="home-img"></img>
+        <div className="home-circle">
+          <img src={coffee} className="home-img"></img>
+        </div>
+        <p className="home-txt2">
+          Experience the perfect blend of bold coffee and ice-cold refreshment.
+          Try our iced coffee today!{" "}
+        </p>
+        <img src={badge} alt="badge" className="badge" />
       </div>
       <div className="ribbon1 ribbon">
         <h3>Mocha</h3>
