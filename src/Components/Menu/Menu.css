@@ -1,10 +1,37 @@
 .Menu {
-  height: 100vh;
   z-index: 10;
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 .menu-header {
   font-size: 66px;
   color: rgb(36, 80, 56);
+  text-align: end;
+  padding: 0 230px;
+  transform: scaleX(1.5);
+}
+
+.menu-container {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.menu-circle {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.coffee-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.menu-name {
+  position: absolute;
 }

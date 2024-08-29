@@ -3,7 +3,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="navbar">
-      <h1>KAFE</h1>
+      <h1 className="nav-header">KAFE</h1>
 
       <div className="nav-link-container">
         <a href="" className="nav-links">

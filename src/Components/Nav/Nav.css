@@ -3,11 +3,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-
   position: fixed;
   top: 0;
   z-index: 25;
   width: 100%;
+}
+
+.nav-header {
+  color: white;
 }
 
 .nav-links {

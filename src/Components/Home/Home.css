@@ -8,15 +8,18 @@
 .home-header {
   font-size: 140px;
   color: white;
+
   text-align: center;
-  margin: 100px 0 0;
+  margin: 70px 0 0;
+  transform: scaleX(1.5);
+  font-weight: 600;
 }
 .home-txt {
   position: absolute;
-  top: 70%;
-  left: 3%;
+  top: 75%;
+  left: 10%;
   flex-wrap: wrap;
-  width: 200px;
+  width: 300px;
   font-size: 14px;
   color: white;
   font-weight: 300;
