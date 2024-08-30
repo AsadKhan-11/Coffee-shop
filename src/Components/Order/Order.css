@@ -1,0 +1,72 @@
+.Order {
+  background-color: rgb(36, 80, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.Order .ribbon {
+  top: 5%;
+  z-index: 55;
+}
+
+.order-header {
+  color: white;
+  font-size: 88px;
+  width: 300px;
+  word-break: break-all;
+  text-align: center;
+  transform: scaleX(1.5);
+  font-weight: 600;
+}
+
+.order-info {
+  margin: 270px 0 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.Order h3 {
+  font-size: 52px;
+}
+
+.Order .order-info .home-img-container {
+  top: 40%;
+  left: -20%;
+  height: 300px;
+  width: 700px;
+  padding: 400px 0 0 0;
+}
+
+.Order .ribbon {
+  height: 115px;
+  width: 1600px;
+  position: absolute;
+
+  left: -6%;
+  padding: 0 200px;
+
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  font-size: 52px;
+  color: white;
+}
+
+.Order .ribbon1 {
+  transform: rotate(-10deg);
+  z-index: 22;
+  top: 18%;
+}
+.Order .ribbon2 {
+  top: 20%;
+  transform: rotate(10deg);
+  z-index: 23;
+}

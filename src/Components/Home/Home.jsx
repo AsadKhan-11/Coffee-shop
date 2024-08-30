@@ -10,8 +10,6 @@ function Home() {
           Dive into the world of authentic coffee, brewed to perfection to
           invigorate your day and awaken your soul.
         </p>
-
-        <div className="crossing-lines"></div>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.css";
-import coffee from "./Menu.js";
+import coffee from "./Data";
 
 function Menu() {
   return (
