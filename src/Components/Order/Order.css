@@ -47,17 +47,17 @@
 
 .Order .ribbon {
   height: 115px;
-  width: 1600px;
+
   position: absolute;
 
-  left: -6%;
-  padding: 0 200px;
+  left: -15px;
+  padding: 0 50px;
 
   display: flex;
   gap: 150px;
   align-items: center;
   font-size: 52px;
-  color: white;
+  color: rgb(90, 81, 1);
 }
 
 .Order .ribbon1 {

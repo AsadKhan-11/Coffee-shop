@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   z-index: 25;
-  width: 100%;
+  width: 100vw;
 }
 
 .nav-header {
@@ -23,6 +23,11 @@
   display: flex;
   gap: 100px;
   align-items: center;
+}
+
+.navbar.scrolled {
+  background-color: rgb(36, 80, 56);
+  transition: all 1s;
 }
 
 .nav-btn {
