@@ -21,6 +21,22 @@ function Order() {
         <h3>Order Now</h3>
         <h3>Order Now</h3>
       </div>
+
+      <div className="order-footer-container">
+        <h1 className="order-footer">KAFE</h1>
+
+        <div className="order-footer-links">
+          <a href="" className="nav-links">
+            Home
+          </a>
+          <a href="" className="nav-links">
+            Menu
+          </a>
+          <a href="" className="nav-links">
+            About us
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

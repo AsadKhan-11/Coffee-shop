@@ -70,3 +70,21 @@
   transform: rotate(10deg);
   z-index: 23;
 }
+
+.order-footer {
+  color: white;
+}
+
+.order-footer-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 50px;
+}
+
+.order-footer-links {
+  display: flex;
+  gap: 40px;
+}
