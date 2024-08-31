@@ -36,6 +36,7 @@
   font-size: 52px;
   width: 101vw;
   color: rgb(90, 81, 1);
+  animation: glass 2s ease-out;
 }
 
 .ribbon1 {
@@ -88,11 +89,12 @@
   left: 10%;
 }
 
-@keyframes glass {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+h3 svg {
+  height: 50px;
+  width: 50px;
 }

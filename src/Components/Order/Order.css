@@ -14,11 +14,12 @@
 .order-header {
   color: white;
   font-size: 88px;
-  width: 300px;
+  width: 350px;
   word-break: break-all;
   text-align: center;
   transform: scaleX(1.5);
   font-weight: 600;
+  text-shadow: 8px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .order-info {
@@ -73,6 +74,9 @@
 
 .order-footer {
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .order-footer-container {
