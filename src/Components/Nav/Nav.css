@@ -7,6 +7,7 @@
   top: 0;
   z-index: 25;
   width: 100vw;
+  animation: glass 2s ease-out;
 }
 
 .nav-header {
@@ -28,11 +29,12 @@
 .navbar.scrolled {
   background-color: rgb(36, 80, 56);
   transition: all 1s;
+  opacity: 0.8;
 }
 
 .nav-btn {
   background-color: white;
-  color: rgb(29, 150, 84);
+  color: rgb(36, 80, 56);
   border-radius: 15px;
   font-weight: 600;
   height: 30px;
@@ -41,4 +43,11 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
+}
+@keyframes glass {
+  0% {
+    opacity: 0;
+  }
+  100% {
+  }
 }
