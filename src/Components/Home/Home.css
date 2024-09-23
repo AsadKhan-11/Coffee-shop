@@ -1,7 +1,7 @@
 .Home {
   position: relative;
   height: 100vh;
-  background-color: rgb(36, 80, 56);
+  background-color: rgb(22, 85, 50);
   overflow: hidden;
   z-index: 20;
   animation: glass 2s ease-out;

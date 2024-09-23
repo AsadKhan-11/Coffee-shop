@@ -24,7 +24,7 @@
 }
 
 .ribbon {
-  background-color: rgb(179, 154, 15);
+  background-color: rgb(211, 183, 25);
   height: 115px;
   position: absolute;
   white-space: nowrap;
@@ -35,7 +35,7 @@
   align-items: center;
   font-size: 52px;
   width: 101vw;
-  color: rgb(90, 81, 1);
+  color: rgb(122, 111, 5);
   animation: glass 2s ease-out;
 }
 
