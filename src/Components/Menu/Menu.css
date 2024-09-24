@@ -20,11 +20,15 @@
   margin-top: 40px;
 }
 
-.menu-circle {
+.img-circle {
   height: 300px;
   width: 300px;
   overflow: hidden;
   border-radius: 50%;
+}
+
+.menu-circle {
+  position: relative;
 }
 
 .coffee-img {
@@ -35,4 +39,5 @@
 .menu-name {
   position: absolute;
   color: rgb(36, 80, 56);
+  left: -20px;
 }

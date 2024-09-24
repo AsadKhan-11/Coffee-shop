@@ -12,7 +12,9 @@ function Menu() {
           return (
             <div className="menu-circle" key={index}>
               <p className="menu-name">{coffees.name}</p>
-              <img src={coffees.img} className="coffee-img" />
+              <div className="img-circle" key={index}>
+                <img src={coffees.img} className="coffee-img" />
+              </div>
             </div>
           );
         })}
