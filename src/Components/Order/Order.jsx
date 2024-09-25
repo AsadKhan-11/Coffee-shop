@@ -7,7 +7,7 @@ function Order() {
     <div className="Order">
       <div className="order-info">
         <h1 className="order-header">ORDER NOW </h1>
-        <div className="home-img-container">
+        <div className="order-container">
           <img src={coffee} className="home-img"></img>
         </div>
       </div>

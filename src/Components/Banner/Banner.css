@@ -5,7 +5,7 @@
 }
 
 .home-img {
-  height: 650px;
+  height: 100%;
   object-fit: cover;
   animation: glass 3s ease-out forwards;
 }
@@ -57,14 +57,16 @@
   top: 85%;
   right: 0%;
   flex-wrap: wrap;
-  width: 300px;
+  width: 250px;
   font-size: 14px;
   color: rgb(36, 80, 56);
   font-weight: 400;
+  text-align: justify;
 }
 
 .home-circle {
   overflow: hidden;
+  height: 700px;
   /* position: relative;
   display: flex;
   align-items: center;

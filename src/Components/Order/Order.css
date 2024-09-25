@@ -92,3 +92,16 @@
   display: flex;
   gap: 40px;
 }
+
+.order-container {
+  position: absolute;
+  left: -60%;
+  top: 45%;
+  z-index: 23;
+  height: 700px;
+  width: 1100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
