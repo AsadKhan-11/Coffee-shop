@@ -1,5 +1,5 @@
 .Order {
-  background-color: rgb(16, 82, 60);
+  background-color: #13293d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 .order-header {
-  color: white;
+  color: #e2dfd9;
   font-size: 88px;
   width: 350px;
   word-break: break-all;
@@ -51,8 +51,9 @@
 
   position: absolute;
 
-  left: -15px;
+  left: -25px;
   padding: 0 50px;
+  width: 110%;
 
   display: flex;
   gap: 150px;

@@ -1,6 +1,6 @@
 .Banner {
-  height: 70vh;
-  background-color: antiquewhite;
+  height: 55vh;
+  background-color: #f8f4e9;
   overflow-x: hidden;
 }
 
@@ -59,7 +59,7 @@
   flex-wrap: wrap;
   width: 250px;
   font-size: 14px;
-  color: rgb(36, 80, 56);
+  color: #13293d;
   font-weight: 400;
   text-align: justify;
 }

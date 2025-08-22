@@ -10,6 +10,7 @@
   animation: glass 2s ease-out;
 }
 
+/* Logo */
 .nav-header {
   color: white;
   display: flex;
@@ -23,49 +24,66 @@ svg {
   width: 30px;
 }
 
+/* Links */
 .nav-links {
   text-decoration: none;
   font-size: 20px;
   color: white;
   padding: 5px 10px;
   border-radius: 25px;
-
-  &:hover {
-    background-color: white;
-    color: rgb(16, 82, 60);
-  }
+  transition: color 0.3s ease, background 0.3s ease;
 }
 
+.nav-links:hover {
+  background-color: #c8a97e; /* beige */
+  color: #13293d; /* navy text on hover */
+}
+
+/* Link container */
 .nav-link-container {
   display: flex;
   gap: 100px;
   align-items: center;
 }
 
+/* Navbar on scroll */
 .navbar.scrolled {
-  background-color: rgb(36, 80, 56, 0.8);
-  transition: all 1s;
+  background-color: rgba(19, 41, 61, 0.85); /* navy w/ transparency */
+  transition: all 0.8s ease;
+  backdrop-filter: blur(6px);
 }
 
+/* CTA button */
 .nav-btn {
-  background-color: white;
-  color: rgb(36, 80, 56);
+  background-color: #c8a97e; /* beige */
+  color: #13293d; /* navy text */
   border-radius: 15px;
   font-weight: 600;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
 
-  height: 30px;
-  width: 120px;
+  height: 35px;
+  width: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+
+  transition: background 0.3s ease, transform 0.2s ease;
 }
+
+.nav-btn:hover {
+  background-color: #ac9272; /* darker beige */
+  transform: translateY(-2px);
+}
+
+/* Fade animation */
 @keyframes glass {
   0% {
     opacity: 0;
+    transform: translateY(-15px);
   }
   100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

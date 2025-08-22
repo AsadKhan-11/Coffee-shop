@@ -1,12 +1,12 @@
 .Menu {
   z-index: 10;
-  background-color: antiquewhite;
+  background-color: #f8f4e9;
   padding-bottom: 100px;
 }
 
 .menu-header {
   font-size: 66px;
-  color: rgb(36, 80, 56);
+  color: #13293d;
   text-align: end;
   padding: 0 230px;
   transform: scaleX(1.5);
@@ -38,6 +38,7 @@
 }
 .menu-name {
   position: absolute;
-  color: rgb(36, 80, 56);
+  color: #c8a97e;
+  font-weight: 600;
   left: -20px;
 }
